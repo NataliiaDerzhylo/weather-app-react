@@ -1,0 +1,136 @@
+body {
+  font-family: arial, sans-serif;
+  background-image: url("back.jpg");
+  background-size: 1800px;
+}
+
+h1 {
+  color: #5dc6eb;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: left;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 19.2px;
+  text-align: left;
+  color: lightslategray;
+}
+
+footer {
+  text-align: center;
+  color: #ff65b1;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid #ff65b1;
+  border-radius: 5px;
+  background: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
+  background-repeat: no-repeat;
+}
+.overview {
+  margin-bottom: 20px;
+}
+.weather-temperature img {
+  margin-right: 10px;
+  height: 70px;
+  width: 70px;
+}
+.weather-temperature strong {
+  color: #5dc6eb;
+  font-size: 60px;
+  font-weight: 600;
+}
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -29px;
+  color: #5dc6eb;
+}
+.btn {
+  background-color: #5dc6eb;
+  border-width: 2px;
+  border-color: #ff65b1;
+}
+.btn:hover {
+  background-color: #ff65b1;
+  border-width: 2px;
+  border-color: #ff65b1;
+}
+
+.active {
+  color: #5dc6eb;
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+
+  color: #000000;
+  border: 1px solid #f1edfa;
+  background: #f1edfa;
+  border-radius: 5px;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 5.5;
+  color: #ff65b1;
+  font-weight: 100;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.9;
+}
+
+.weather-forecast-temperature {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-max {
+  font-weight: 600;
+}
+
+.button-current {
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: 63px;
+  padding: 5px 15px;
+  background: #f1edfa;
+  font-size: 10px;
+  font-weight: 500;
+  color: #ff65b1;
+}
+
+.button-current {
+  border-radius: 5px;
+  border: 1px solid #5dc6eb;
+}
+
+#source-link {
+  color: #ff65b1;
+  text-decoration: none;
+}
+
+#source-link:hover {
+  color: #5dc6eb;
+}
