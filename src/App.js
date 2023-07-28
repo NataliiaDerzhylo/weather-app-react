@@ -5,7 +5,6 @@ import "./App.css";
 export default function SearchEngine() {
   const [city, setCity] = useState("");
   const [weatherData, setWeatherData] = useState(null);
-  const [message, setMessage] = useState("");
   const [loaded, setLoaded] = useState(false);
 
   function displayResult(response) {
@@ -77,7 +76,6 @@ export default function SearchEngine() {
             </div>
           </div>
         )}
-        {message && <p>{message}</p>}
         <footer>
           <small>
             <span className="name">by Nataliia Derzhylo</span>
